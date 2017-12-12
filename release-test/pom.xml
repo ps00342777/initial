@@ -4,7 +4,7 @@
 
 	<groupId>com.telia.communication</groupId>
 	<artifactId>release-test</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>release-test</name>
@@ -24,9 +24,10 @@
 	</properties>
 	
 	<scm>
-        <connection>scm:git:file:///D:/Dev/gitremotetest/testpp</connection>
-        <developerConnection>scm:git:file:///D:/Dev/gitremotetest/testpp</developerConnection>
-        <tag>release-test-0.0.1</tag>
+		<url>https://github.com/ps00342777/initial.git</url>
+        <connection>scm:git:https://github.com/ps00342777/initial.git</connection>
+        <developerConnection>scm:git:https://github.com/ps00342777/initial.git</developerConnection>
+        <tag>${project.version}</tag>
     </scm>
 
 	<dependencies>
